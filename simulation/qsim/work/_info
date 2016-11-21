@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim
+vcontador_modelo
+Z1 !s110 1479680324
+!i10b 1
+!s100 oDjPJ7Gk76GOXFkeWM]l<1
+IjgnzXHiOD>>1EYTHlOZHN1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1479680319
+Z3 8Contadores.vo
+Z4 FContadores.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1479680324.000000
+Z8 !s107 Contadores.vo|
+Z9 !s90 -work|work|Contadores.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontador_modelo_vlg_vec_tst
+R1
+!i10b 1
+!s100 6ISzf>kPVA1b8`UM2JzH12
+I1?3U3iXM^B;]JkmUFWk@I1
+R2
+R0
+w1479680317
+Z12 8Waveform1.vwf.vt
+Z13 FWaveform1.vwf.vt
+Z14 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+Z15 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vcount_1
+Z16 !s110 1479699229
+!i10b 1
+!s100 3^>9MR<WDO_JhXifc^T3^1
+IH=Gz5bzAGNKFCaoo[ZHRl3
+R2
+R0
+w1479699228
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1479699229.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcount_1_vlg_vec_tst
+R16
+!i10b 1
+!s100 Bo3BV^D?gPa:P=Ce1aAf21
+I;Z03IRHONTOg?N>e[>_jK1
+R2
+R0
+w1479699227
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+R14
+R6
+r1
+!s85 0
+31
+R17
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vcount_2
+Z22 !s110 1479700024
+!i10b 1
+!s100 glBVfjb]>[dDAFOB:E<Ca2
+I^ZRcM:U6a1h81>3]>@HHM3
+R2
+R0
+Z23 w1479700023
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z24 !s108 1479700024.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcount_2_vlg_vec_tst
+R22
+!i10b 1
+!s100 l<abPcgh2?j9f_2?DUA`K3
+I;@E=EniZ;Bo>3SzEj5m[g1
+R2
+R0
+w1479700022
+R12
+R13
+R14
+R6
+r1
+!s85 0
+31
+R24
+!s107 Waveform1.vwf.vt|
+R15
+!i113 1
+R10
+R11
+vhard_block
+R22
+!i10b 1
+!s100 ;Oj?j88i=_iYhZj<P^Eg31
+I;h1Amd2`^Fi:=Xn@DAK1F3
+R2
+R0
+R23
+R3
+R4
+L0 453
+R6
+r1
+!s85 0
+31
+R24
+R8
+R9
+!i113 1
+R10
+R11
+vup_down_counter
+Z25 !s110 1479605637
+!i10b 1
+!s100 Wn=LW7Z]23UDFBiiK?loE3
+I=9dbb2l?AgZC`njj@RzPo3
+R2
+R0
+w1479605636
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z26 !s108 1479605637.000000
+R8
+R9
+!i113 1
+R10
+R11
+vup_down_counter_vlg_vec_tst
+R25
+!i10b 1
+!s100 OPW3FblDiHGdb^<;4g3AV0
+Ia8e7fozi;EVRh6UiW4YkK2
+R2
+R0
+w1479605635
+R18
+R19
+R14
+R6
+r1
+!s85 0
+31
+R26
+R20
+R21
+!i113 1
+R10
+R11
