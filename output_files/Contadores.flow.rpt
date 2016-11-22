@@ -1,5 +1,5 @@
 Flow report for Contadores
-Mon Nov 21 00:47:03 2016
+Tue Nov 22 15:41:46 2016
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Nov 21 00:47:03 2016       ;
+; Flow Status                        ; Successful - Tue Nov 22 15:41:46 2016       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; Contadores                                  ;
 ; Top-level Entity Name              ; count_2                                     ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/21/2016 00:41:51 ;
+; Start date & time ; 11/22/2016 15:37:09 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Contadores          ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 247232640786568.147969971107880        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 24341852269841.147983982908576         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 125                                    ; --            ; --          ; --             ;
@@ -97,14 +97,17 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:21     ; 1.0                     ; 616 MB              ; 00:00:45                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 1106 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 552 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 608 MB              ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 522 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 507 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 514 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:33     ; --                      ; --                  ; 00:00:57                           ;
+; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 619 MB              ; 00:00:38                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 1107 MB             ; 00:00:06                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 555 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 611 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 524 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 510 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 510 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 510 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 510 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 526 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:53                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -120,6 +123,9 @@ agreement for further details.
 ; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-U7PF1SK  ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 
@@ -131,8 +137,11 @@ quartus_fit --read_settings_files=off --write_settings_files=off Contadores -c C
 quartus_asm --read_settings_files=off --write_settings_files=off Contadores -c Contadores
 quartus_sta Contadores -c Contadores
 quartus_eda --read_settings_files=off --write_settings_files=off Contadores -c Contadores
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Contadores -c Contadores --vector_source="D:/Users/mrlnr/Documents/Projetos Quartus/Waveform1.vwf" --testbench_file="D:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim/Waveform1.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim/" Contadores -c Contadores
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Contadores -c Contadores --vector_source=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/tb_count_2.vwf --testbench_file=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/tb_count_2.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Contadores -c Contadores --vector_source=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/Waveform.vwf --testbench_file=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Contadores -c Contadores --vector_source=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/Waveform.vwf --testbench_file=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Contadores -c Contadores --vector_source=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/tb_count_2.vwf --testbench_file=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/tb_count_2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/ Contadores -c Contadores
 
 
 

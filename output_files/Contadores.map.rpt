@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Contadores
-Mon Nov 21 00:42:12 2016
+Tue Nov 22 15:37:25 2016
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Nov 21 00:42:12 2016       ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 22 15:37:25 2016       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; Contadores                                  ;
 ; Top-level Entity Name              ; count_2                                     ;
@@ -165,13 +165,13 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                             ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                         ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------+---------+
-; count_2.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Users/mrlnr/Documents/Projetos Quartus/count_2.sv ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                               ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
+; count_2.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_2.sv ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -277,39 +277,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Mon Nov 21 00:41:51 2016
+    Info: Processing started: Tue Nov 22 15:37:08 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Contadores -c Contadores
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file count_1.sv
-    Info (12023): Found entity 1: count_1 File: D:/Users/mrlnr/Documents/Projetos Quartus/count_1.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/mrlnr/downloads/aislan_ex01_mb_sv-master/aislan_ex01_mb_sv-master/contador16_ud_q2.sv
-    Info (12023): Found entity 1: Contador16_UD_q2 File: D:/Users/mrlnr/Downloads/Aislan_Ex01_MB_SV-master/Aislan_Ex01_MB_SV-master/Contador16_UD_q2.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/mrlnr/downloads/aislan_ex01_mb_sv-master/aislan_ex01_mb_sv-master/contador16_ud_q1.sv
-    Info (12023): Found entity 1: Contador16_UD_q1 File: D:/Users/mrlnr/Downloads/Aislan_Ex01_MB_SV-master/Aislan_Ex01_MB_SV-master/Contador16_UD_q1.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file contador_modelo.sv
-    Info (12023): Found entity 1: contador_modelo File: D:/Users/mrlnr/Documents/Projetos Quartus/Contador_Modelo.sv Line: 7
+    Info (12023): Found entity 1: count_1 File: D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_1.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file count_2.sv
-    Info (12023): Found entity 1: count_2 File: D:/Users/mrlnr/Documents/Projetos Quartus/count_2.sv Line: 1
+    Info (12023): Found entity 1: count_2 File: D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_2.sv Line: 1
 Info (12127): Elaborating entity "count_2" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file D:/Users/mrlnr/Documents/Projetos Quartus/output_files/Contadores.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 16 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 10 logic cells
+Info (144001): Generated suppressed messages file D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/output_files/Contadores.map.smsg
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 624 megabytes
-    Info: Processing ended: Mon Nov 21 00:42:12 2016
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:45
+    Info: Peak virtual memory: 629 megabytes
+    Info: Processing ended: Tue Nov 22 15:37:25 2016
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:38
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/Users/mrlnr/Documents/Projetos Quartus/output_files/Contadores.map.smsg.
+The suppressed messages can be found in D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/output_files/Contadores.map.smsg.
 
 

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Contadores
-Mon Nov 21 00:47:03 2016
+Tue Nov 22 15:41:46 2016
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Nov 21 00:47:03 2016 ;
+; EDA Netlist Writer Status ; Successful - Tue Nov 22 15:41:46 2016 ;
 ; Revision Name             ; Contadores                            ;
 ; Top-level Entity Name     ; count_2                               ;
 ; Family                    ; Cyclone IV E                          ;
@@ -51,7 +51,8 @@ agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                        ;
+; Generate functional simulation netlist                                                            ; Off                       ;
+; Time scale                                                                                        ; 1 ps                      ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -66,13 +67,20 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------+
-; Simulation Generated Files                                               ;
-+--------------------------------------------------------------------------+
-; Generated Files                                                          ;
-+--------------------------------------------------------------------------+
-; D:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim//Contadores.vo ;
-+--------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                             ;
++--------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                        ;
++--------------------------------------------------------------------------------------------------------+
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_7_1200mv_125c_slow.vo      ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_7_1200mv_-40c_slow.vo      ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_min_1200mv_-40c_fast.vo    ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores.vo                         ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_7_1200mv_125c_v_slow.sdo   ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_7_1200mv_-40c_v_slow.sdo   ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_min_1200mv_-40c_v_fast.sdo ;
+; D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//Contadores_v.sdo                      ;
++--------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -95,14 +103,21 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: devices manufactured by Intel and sold by Intel or its 
     Info: authorized distributors.  Please refer to the applicable 
     Info: agreement for further details.
-    Info: Processing started: Mon Nov 21 00:47:03 2016
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim/" Contadores -c Contadores
+    Info: Processing started: Tue Nov 22 15:41:45 2016
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim/ Contadores -c Contadores
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file Contadores.vo in folder "D:/Users/mrlnr/Documents/Projetos Quartus/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_7_1200mv_125c_slow.vo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_7_1200mv_-40c_slow.vo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_min_1200mv_-40c_fast.vo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores.vo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_7_1200mv_125c_v_slow.sdo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_7_1200mv_-40c_v_slow.sdo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_min_1200mv_-40c_v_fast.sdo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file Contadores_v.sdo in folder "D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 514 megabytes
-    Info: Processing ended: Mon Nov 21 00:47:03 2016
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 526 megabytes
+    Info: Processing ended: Tue Nov 22 15:41:46 2016
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

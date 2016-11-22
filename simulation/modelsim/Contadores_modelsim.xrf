@@ -1,9 +1,9 @@
 vendor_name = ModelSim
-source_file = 1, D:/Users/mrlnr/Documents/Projetos Quartus/count_1.sv
-source_file = 1, D:/Users/mrlnr/Documents/Projetos Quartus/Contador_Modelo.sv
-source_file = 1, D:/Users/mrlnr/Documents/Projetos Quartus/Waveform.vwf
-source_file = 1, D:/Users/mrlnr/Documents/Projetos Quartus/count_2.sv
-source_file = 1, D:/Users/mrlnr/Documents/Projetos Quartus/db/Contadores.cbx.xml
+source_file = 1, D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_1.sv
+source_file = 1, D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_2.sv
+source_file = 1, D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/tb_count_1.vwf
+source_file = 1, D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/tb_count_2.vwf
+source_file = 1, D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/db/Contadores.cbx.xml
 design_name = count_2
 instance = comp, \out[0]~output , out[0]~output, count_2, 1
 instance = comp, \out[1]~output , out[1]~output, count_2, 1

@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at count_1.sv(3): always construct contains both blocking and non-blocking assignments File: D:/Users/mrlnr/Documents/Projetos Quartus/count_1.sv Line: 3
+Warning (10268): Verilog HDL information at count_1.sv(3): always construct contains both blocking and non-blocking assignments File: D:/OneDrive/Documentos/GitHub/Marlon_Ex01_MB_SV/count_1.sv Line: 3
